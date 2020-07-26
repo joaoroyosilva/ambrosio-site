@@ -38,4 +38,6 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 1368px;
+  margin: auto;
 `;
