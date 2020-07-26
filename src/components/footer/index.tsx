@@ -9,7 +9,7 @@ const Footer: React.FC = () => (
       <p>CNPJ: 36.470.520/0001-05.</p>
       <p>
         Telefone (WhatsApp):
-        <a href="tel:+5567993257520">67 9 9325-7520.</a>
+        <a href="tel:+5567993257520"> (67) 9 9325-7520.</a>
       </p>
       <p>
         <a href="mailto:ambrosio.contato@gmail.com">

@@ -16,4 +16,5 @@ export const Contact = styled.div`
   border-radius: 10px;
   color: #1ba160;
   font-size: 20px;
+  text-align: center;
 `;

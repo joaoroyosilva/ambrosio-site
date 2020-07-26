@@ -43,6 +43,10 @@ export const Text = styled.div`
     font-size: 30px;
   }
 
+  @media screen and (max-width: 320px) {
+    font-size: 20px;
+  }
+
   p {
     margin-top: 40px;
   }
