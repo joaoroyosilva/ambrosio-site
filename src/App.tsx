@@ -7,8 +7,8 @@ import ItemLeft from './components/item-left';
 import ItemRight from './components/item-right';
 import Footer from './components/footer';
 
-import Coruja from './assets/suporte_coruja_sem_vaso.jpg';
-import Fruteira from './assets/fruteira.jpg';
+import Coruja from './assets/suporte_coruja_sem_vaso.png';
+import Fruteira from './assets/fruteira.png';
 
 interface Item {
   title: string;

@@ -3,7 +3,7 @@ import React from 'react';
 import { Container, Contact } from './styles';
 
 const Footer: React.FC = () => (
-  <Container>
+  <Container id="Contato">
     <Contact>
       <p>AMBROSIO ARTE EM FERRO E MADEIRA.</p>
       <p>CNPJ: 36.470.520/0001-05.</p>

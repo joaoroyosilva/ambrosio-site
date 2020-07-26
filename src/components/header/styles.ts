@@ -29,7 +29,7 @@ export const Container = styled.div<ContainerProps>`
       cursor: pointer;
       color: #1ba160;
       text-decoration: none;
-      font-size: 30px;
+      font-size: 25px;
       transition: opacity 0.2s;
     }
   }
