@@ -7,7 +7,10 @@ const Footer: React.FC = () => (
     <Contact>
       <p>AMBROSIO ARTE EM FERRO E MADEIRA.</p>
       <p>CNPJ: 36.470.520/0001-05.</p>
-      <p>Telefone (WhatsApp): 67 9 9325-7520.</p>
+      <p>
+        Telefone (WhatsApp):
+        <a href="tel:+5567993257520">67 9 9325-7520.</a>
+      </p>
       <p>
         <a href="mailto:ambrosio.contato@gmail.com">
           E-mail: ambrosio.contato@gmail.com.

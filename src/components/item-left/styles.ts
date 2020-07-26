@@ -8,7 +8,7 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
+  flex-wrap: wrap;
   height: 650px;
   margin-top: 40px;
   padding: 0px 10px;
@@ -30,6 +30,8 @@ export const Text = styled.div`
   height: 100%;
   padding: 10px;
   display: flex;
+
+  text-align: center;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -43,6 +45,5 @@ export const Text = styled.div`
 
   p {
     margin-top: 40px;
-    text-align: center;
   }
 `;

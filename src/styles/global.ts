@@ -8,6 +8,10 @@ export default createGlobalStyle`
     box-sizing: border-box;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     -webkit-font-smoothing: antialiased;
     background-color: #1ba160;
@@ -40,4 +44,9 @@ export const Container = styled.div`
   align-items: center;
   max-width: 1368px;
   margin: auto;
+
+  #div-content {
+    width: 100%;
+    margin-bottom: 10px;
+  }
 `;

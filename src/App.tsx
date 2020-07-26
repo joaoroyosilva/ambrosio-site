@@ -36,9 +36,19 @@ const App: React.FC = () => {
     <Container>
       <GlobalStyle />
       <Header />
-      <ItemLeft text={suporte.text} title={suporte.title} img={Coruja} />
-      <ItemRight text={decoracao.text} title={decoracao.title} img={Fruteira} />
-      <ItemLeft text={aparadores.text} title={aparadores.title} img={Coruja} />
+      <div id="div-content">
+        <ItemLeft text={suporte.text} title={suporte.title} img={Coruja} />
+        <ItemRight
+          text={decoracao.text}
+          title={decoracao.title}
+          img={Fruteira}
+        />
+        <ItemLeft
+          text={aparadores.text}
+          title={aparadores.title}
+          img={Coruja}
+        />
+      </div>
       <Footer />
     </Container>
   );

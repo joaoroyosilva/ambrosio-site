@@ -37,6 +37,7 @@ export const Text = styled.div`
   background-color: #1ba160;
   color: #fff;
   border-radius: 10px 0px 0px 10px;
+  text-align: center;
 
   span {
     font-size: 30px;
@@ -44,6 +45,5 @@ export const Text = styled.div`
 
   p {
     margin-top: 40px;
-    text-align: center;
   }
 `;

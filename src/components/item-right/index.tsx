@@ -9,13 +9,16 @@ interface ItemProps {
 }
 
 const ItemRight: React.FC<ItemProps> = ({ title, text, img }) => (
-  <Container id={title}>
-    <Text>
-      <span>{title}</span>
-      <p>{text}</p>
-    </Text>
-    <Image img={img} />
-  </Container>
+  <>
+    <span id={title} />
+    <Container>
+      <Text>
+        <span>{title}</span>
+        <p>{text}</p>
+      </Text>
+      <Image img={img} />
+    </Container>
+  </>
 );
 
 export default ItemRight;
